@@ -6,9 +6,9 @@ version     "1.0.0"
 
 depends "dependencies"
 depends "scm_helper"
-depends "ssh_users"
 depends "nginx"
-depends "opsworks_nodejs"
+depends "ssh_users"
+depends "unicorn"
 
 recipe "deploy::rails", "Deploy a Rails application"
 recipe "deploy::rails-undeploy", "Remove a Rails application"
